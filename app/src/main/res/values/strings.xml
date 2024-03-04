@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Solo QR Scanner</string>
+    <string name="scan_title">Scan</string>
+    <string name="str_setting">Setting</string>
+    <string name="qr_create">Create QR</string>
+    <string name="scan_result">Scan Result</string>
+    <string name="privacy_agreement">Privacy agreement</string>
+    <string name="privacy_url">https://www.google.com</string>
+    <string name="create">Create</string>
+    <string name="ic_copy">Copy</string>
+</resources>
