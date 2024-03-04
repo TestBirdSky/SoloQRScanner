@@ -28,8 +28,13 @@ class InfoHelper(val context: Application) {
     //mercury
     fun createUrl(baseUrl: String): String {
         return "$baseUrl?faucet=${androidToDis(getAndo())}&esmark=${System.currentTimeMillis()}&languid=${Build.MODEL}" +
-                "&symptom=${context.packageName}&ftc=${Build.VERSION.RELEASE}&pacifism=$pacifism&bahama=${getAndo()}" +
+                "&symptom=${getP()}&ftc=${Build.VERSION.RELEASE}&pacifism=$pacifism&bahama=${getAndo()}" +
                 "&attempt=mercury&eddie=${getPackInfoVersion()}&haggard=${Build.BRAND}"
+    }
+
+    private fun getP():String{
+//        return "com.solo.designer.qr.scanner"
+        return context.packageName
     }
 
     private fun getPackInfoVersion(): String {
